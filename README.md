@@ -1,19 +1,20 @@
 # Spring Boot & Spring Fox
 Servicios REST en Spring Boot, SpringFox
-## Tools:
-* IDE: Intellij IDEA
-* Persistencia: JPA
-* API Design: Swagger 
-* API Test Services: SpringFox
-* Database: MySQL
-* Build: Gradle
-* Framework Java: Spring Boot
-* Spring Boot Version: 1.5.7.RELEASE
-* Java Version: 1.8
+
+## _Tools_:
+* **IDE:** [Intellij IDEA](https://www.jetbrains.com/idea/)
+* **Persistencia:** JPA & Hibernate
+* **API Design:** [Swagger](https://swagger.io/) - [OpenApi](https://www.openapis.org/)
+* **API Test Services Data:** [SpringFox](http://springfox.github.io/springfox/)
+* **Database:** MySQL
+* **Build:** Gradle
+* **Framework Java:** Spring Boot
+* **Spring Boot Version:** 1.5.7.RELEASE
+* **Java Version:** 1.8
 * MySQL Driver Conector
 
-## Deployment:
-* Tomcat Embed 8.5  
+## _Deployment_:
+* Tomcat Embed 8.5 
 
 
 
