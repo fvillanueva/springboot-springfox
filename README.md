@@ -12,6 +12,7 @@ Servicios REST en Spring Boot, SpringFox
 * **Spring Boot Version:** 1.5.7.RELEASE
 * **Java Version:** 1.8
 * MySQL Driver Conector
+* **Logger**: [Logback](https://logback.qos.ch/)
 
 ## _Deployment_:
 * Tomcat Embed 8.5 
