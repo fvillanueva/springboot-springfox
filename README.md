@@ -21,10 +21,14 @@ Servicios REST en Spring Boot, SpringFox
 * Tomcat Embed 8.5 
 
 ## TAR
-![Gradle](https://gradle.com/img/Gradle-Enterprise.png)
-![Gradle](https://git-scm.com/images/logo@2x.png)
-![Gradle](https://logback.qos.ch/images/logos/lblogo.jpg)
-![Gradle](https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png)
+![Gradle](https://plugins.gradle.org/shared-assets/shared/images/gradle-logo-horizontal.svg)
+![Git](https://git-scm.com/images/logo@2x.png)
+![Logback](https://logback.qos.ch/images/logos/lblogo.jpg)
+![OpenApi](https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png)
+![Tomcat](http://tomcat.apache.org/images/tomcat.png)
+![SoapUI](https://www.soapui.org/soapui/media/assets/Images/SoapUI-BySB-Logo.png)
+![Swagger](https://s3-us-west-2.amazonaws.com/assertible/integrations/swagger-logo-horizontal.jpeg)
+
 
 
 
