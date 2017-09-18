@@ -20,7 +20,13 @@ Servicios REST en Spring Boot, SpringFox
 ## _Deployment_:
 * Tomcat Embed 8.5 
 ## Description
-    
+   ``
+   {
+       "message": "Se creó correctamente",
+       "status": "CREATED",
+       "classType": "io.app.demo.demo.data.Animal"
+   }``
+    ` 
 ## TAR
 ![Gradle](https://plugins.gradle.org/shared-assets/shared/images/gradle-logo-horizontal.svg)
 ![Git](https://git-scm.com/images/logo@2x.png)
