@@ -1,7 +1,6 @@
 package io.app.demo.demo.data;
 
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -17,4 +16,6 @@ public interface AnimalRepository extends CrudRepository<Animal, Long>  {
     Animal findOne(long aLong);
 
     Iterable<Animal> findAll();
+
+    void delete(Animal animal);
 }

@@ -11,9 +11,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 /**
- * Created by marcelvillanuevadelgado on 16/09/17.
+ * Created by fidelvillanuevadelgado on 16/09/17.
  */
 @Service
 public class AnimalServiceData implements AnimalService {
@@ -29,11 +30,25 @@ public class AnimalServiceData implements AnimalService {
 
     @Override
     public Animal getAnimal(long id) {
+        if (!this.animalRepository.exists(id)){
+            throw new NoSuchElementException("No existe el animal con ID: "+id);
+        }
         return this.animalRepository.findOne(id);
     }
 
     @Override
     public void saveAnimal(Animal animal) {
+        if (this.animalRepository.exists(animal.getId())){
+            throw new IllegalArgumentException("Ya existe animal con ID: "+animal.getId());
+        }
+        this.animalRepository.save(animal);
+    }
+
+    @Override
+    public void updateAnimal(Animal animal) {
+        if(!this.animalRepository.exists(animal.getId())){
+            throw new NoSuchElementException("No puede Actualizar porque no existe el Animal con ID: "+animal.getId());
+        }
         this.animalRepository.save(animal);
     }
 
@@ -53,5 +68,10 @@ public class AnimalServiceData implements AnimalService {
     @Override
     public Page<Animal> listAllPage(Pageable pageable) {
         return this.animalRepositoryPageable.findAll(pageable);
+    }
+
+    @Override
+    public void deleteAnimal(Animal animal) {
+        this.animalRepository.delete(animal);
     }
 }

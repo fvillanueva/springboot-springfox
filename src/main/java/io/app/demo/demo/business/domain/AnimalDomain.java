@@ -1,7 +1,7 @@
 package io.app.demo.demo.business.domain;
 
 /**
- * Created by marcelvillanuevadelgado on 16/09/17.
+ * Created by fidelvillanuevadelgado on 16/09/17.
  */
 public class AnimalDomain {
 
